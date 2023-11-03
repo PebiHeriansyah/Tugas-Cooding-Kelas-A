@@ -9,8 +9,7 @@ Penjelasan soal nomor 1
    - `i++`: Ini adalah pernyataan peningkatan yang akan menambahkan 1 ke nilai `i` setiap kali perulangan diulang.
 
 4. String (String name = "Pebi Heriansyah";
-            String NPM = "G1A023003";) ini digunakan untuk menyimpan teks, mengubah teks, atau memproses teks dalam loop. 
-
+String NPM = "G1A023003";) ini digunakan untuk menyimpan teks, mengubah teks, atau memproses teks dalam loop. 
 5.System.out.println(System.out.println("Nama : " + name);
 System.out.println("NPM : " + NPM);)`: Ini adalah pernyataan untuk mencetak teks " Nama : + name dan NPM : + NPM " ke layar.
 
@@ -28,3 +27,11 @@ Penjelasan soal nomor 2
 6. `System.out.println(...)`: Ini digunakan untuk mencetak pesan ke konsol.
 
 7. `angka++`: Ini adalah operator peningkatan yang menambahkan 1 ke variabel `angka` setiap kali perulangan berjalan.
+
+Penjelasan soal nomor 3
+1. `import java.util.Scanner;`: Mengimpor kelas Scanner untuk mengambil input pengguna.
+2. `Scanner scanner = new Scanner(System.in);`: Membuat objek Scanner untuk menerima input dari pengguna.
+3. `String input = scanner.nextLine();`: Membaca input tanggal lahir dari pengguna.
+4. `String[] parts = input.split("/");`: Memisahkan input menjadi tanggal dan bulan.
+5. Fungsi `determineZodiac(int day, int month)`: Ini adalah fungsi yang menentukan zodiak berdasarkan tanggal dan bulan yang dimasukkan.
+6. `scanner.close();`: Menutup objek Scanner untuk menghindari kebocoran sumber daya.
