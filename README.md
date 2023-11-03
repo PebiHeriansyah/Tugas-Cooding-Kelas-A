@@ -11,7 +11,7 @@ Penjelasan soal nomor 1
 4. String (String name = "Pebi Heriansyah";
 String NPM = "G1A023003";) ini digunakan untuk menyimpan teks, mengubah teks, atau memproses teks dalam loop. 
 
-5.System.out.println(System.out.println("Nama : " + name);
+5. System.out.println(System.out.println("Nama : " + name);
 System.out.println("NPM : " + NPM);)`: Ini adalah pernyataan untuk mencetak teks " Nama : + name dan NPM : + NPM " ke layar.
 
 Penjelasan soal nomor 2
@@ -40,3 +40,10 @@ Penjelasan soal nomor 3
 
 5. Fungsi `determineZodiac(int day, int month)`: Ini adalah fungsi yang menentukan zodiak berdasarkan tanggal dan bulan yang dimasukkan.
 6. `scanner.close();`: Menutup objek Scanner untuk menghindari kebocoran sumber daya.
+
+Penjelasan soal nomor 4
+1. `int[] numbers = {1, 2, 3, 4, 5};` - Ini adalah deklarasi dan inisialisasi array `numbers` yang berisi 5 elemen bertipe integer.
+
+2. `for (int i = 0; i < numbers.length; i++) {` - Ini adalah perulangan `for` yang digunakan untuk mengiterasi melalui semua elemen dalam array. Dimulai dari indeks 0 hingga indeks kurang dari panjang array `numbers`.
+
+3. `System.out.println("Nilai indeks ke-" + i + " adalah: " + numbers[i]);` - Ini adalah bagian di dalam perulangan `for` yang mencetak nilai dari array pada indeks `i` bersama dengan pesan yang menjelaskan indeks tersebut.
