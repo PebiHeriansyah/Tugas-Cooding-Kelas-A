@@ -1,4 +1,4 @@
-Penjelasan nomor 1
+Penjelasan soal nomor 1
 1. `public class Main`: Ini adalah deklarasi kelas utama dengan nama "Main". Nama kelas harus sama dengan nama file Java yang Anda buat.
 
 2. `public static void main(String[] args)`: Ini adalah deklarasi metode utama yang akan dieksekusi saat program dimulai. Metode `main` adalah pintu masuk untuk program Java.
@@ -13,3 +13,18 @@ Penjelasan nomor 1
 
 5.System.out.println(System.out.println("Nama : " + name);
 System.out.println("NPM : " + NPM);)`: Ini adalah pernyataan untuk mencetak teks " Nama : + name dan NPM : + NPM " ke layar.
+
+Penjelasan soal nomor 2
+1. `public class ContohProgram`: Ini adalah deklarasi kelas Java dengan nama "ContohProgram".
+
+2. `public static void main(String[] args)`: Ini adalah metode utama yang akan dieksekusi saat program dimulai. Parameter `String[] args` adalah argumen baris perintah yang bisa digunakan dalam program.
+
+3. `int angka = 1;`: Inisialisasi variabel `angka` dengan nilai awal 1.
+
+4. `while (angka <= 5)`: Perulangan `while` akan terus berjalan selama kondisi `angka <= 5` benar. Dalam hal ini, itu akan berjalan selama angka kurang dari atau sama dengan 5.
+
+5. `if (angka % 2 == 0)`: Ini adalah kondisi `if`. Ini memeriksa apakah `angka` adalah bilangan genap dengan memeriksa sisa hasil bagi (`%`) dengan 2.
+
+6. `System.out.println(...)`: Ini digunakan untuk mencetak pesan ke konsol.
+
+7. `angka++`: Ini adalah operator peningkatan yang menambahkan 1 ke variabel `angka` setiap kali perulangan berjalan.
